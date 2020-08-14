@@ -1,0 +1,115 @@
+body {
+    background-color: #8E8A97;
+    font-family: Inconsolata; 
+    font-size: 20px;
+    color: #3C3843;
+    
+    
+}
+
+#typewriter{
+    padding: 10px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    border-right: .15em solid o range;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .05em;
+    animation-fill-mode: forwards;
+    animation : typing 2s steps(40, end), blink-caret .75s step-end 
+
+}
+
+@keyframes typing {
+    from {width: 0}
+    to {width :100%}
+}
+@keyframes blink-caret{
+    from,to {border-color: transparent}
+    50% {border-color: black;}
+}
+.blackBorder{
+
+    
+    animation : blackBordersappear 3s;
+    animation-fill-mode: both;
+    animation-delay: 2s;
+
+
+}
+
+#edamam-badge{
+    display: none;
+}
+
+#recipeTitleDiv{
+    text-align: center;
+}
+#container {
+    width: 70%;
+    background-color: #DDDAC8;
+margin-top: 10px;
+    border: solid #3C3843;
+    border-radius: 8px;
+}
+@keyframes blackBordersappear{ 
+
+from {opacity: 0}
+to {opacity: 1}
+
+ }
+
+#userInput {
+    color: #3C3843;
+    background-color: #DDDAC8;
+    border: solid #3C3843;
+    padding: 4px 5px 4px 5px;
+    border-radius: 8px;
+
+}
+
+
+#button {
+color: #3C3843;
+border: solid #3C3843;
+border-radius: 8px;
+padding: 4px;
+background-color: #DDDAC8;
+transition: 1s;
+ }
+#button:hover { 
+   
+    background-color: #B7B398;
+    border-radius: 0;
+    ;
+
+ }
+
+
+#foodImageContainer {
+    text-align: center;
+}
+#foodImage {
+    
+    border-radius: 15px 0 15px 0;
+    box-shadow: 0px 1px  10px  2px #8E8A97;
+    
+    margin-bottom: 20px;
+}
+
+#method {
+    font-size : 15px;
+    text-align: left;
+    padding: 5px 20px 5px 20px;
+    animation-name: methodAppear;
+    animation-delay: 3s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes methodAppear {
+
+    from {opacity: 0;} 
+    to  {opacity: 1;}
+
+}
